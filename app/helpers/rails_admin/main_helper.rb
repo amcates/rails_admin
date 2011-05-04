@@ -39,7 +39,7 @@ module RailsAdmin
       # loop through properties
       properties.each do |property|
         # get width for the current property
-        width = property.column_width || 120
+        width = property.column_width || 95 
 
         # if properties that were gathered so far have the width
         # over 697 make a set for them
